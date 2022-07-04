@@ -1,0 +1,162 @@
+.filter-widget .fw-title {
+    font-size: 14px;
+    font-weight: bold;
+    color: #414141;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+.cle-alert{
+    border-left: 3px solid #f00b0b;
+    border-radius: 0;
+    background: linear-gradient(90deg, rgba(247,247,247,0.9) 0%, rgba(255,255,255,1) 68%);
+    color: red
+}
+.brand li {
+    list-style: none;
+}
+.brand li ul {
+    list-style: none;
+}
+.fw-color-choose,
+.fw-size-choose {
+    border-bottom: 2px solid #ebebeb;
+    padding-bottom: 2px;
+    margin-bottom: 32px;
+}
+
+.fw-color-choose .cs-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 14px;
+}
+
+.fw-color-choose input[type=radio] {
+    visibility: hidden;
+    position: absolute;
+}
+
+.fw-color-choose input[type=radio]:checked+label {
+    -webkit-box-shadow: 0 0 0 2px rgb(104, 189, 69);
+    box-shadow: 0 0 0 2px rgb(104, 189, 69);
+}
+
+input:focus, select:focus,
+button:focus,
+textarea:focus {
+    outline: none;
+}
+
+.fw-color-choose label {
+    width: 26px;
+    height: 26px;
+    border-radius: 50px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.fw-color-choose label span {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 45px;
+    font-size: 11px;
+    color: #414141;
+}
+
+.fw-size-choose .sc-item {
+    display: inline-block;
+    position: relative;
+    margin-right: 5px;
+}
+
+.fw-size-choose input[type=radio] {
+    visibility: hidden;
+    position: absolute;
+}
+
+.fw-size-choose input[type=radio]:checked+label {
+    background: rgb(104, 189, 69);
+    color: #fff;
+}
+
+.fw-size-choose label {
+    display: inline-block;
+    height: 30px;
+    min-width: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: #414141;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 7px 6px 0;
+}
+
+.cle-link {
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.cc--layer {
+    color: #fff;
+    position: relative;
+    padding: 10px 40px;
+    height: 350px;
+}
+
+.cc--descript h1{
+	width:100%;
+	top:0;
+	opacity: 1;
+	color: #000;
+	font-weight: 600;
+}
+
+.cc--descript p {
+	color: #000;
+	font-size: 19px;
+}
+
+.cc--descript .cle-link {
+    text-decoration: none;
+    color: #000;
+    display: inline-flex;
+}
+
+.cc--descript .cle-link:hover {
+    text-decoration-line: underline;
+}
+
+.cc--descript .cle-link i {
+    transition: all .2s ease;
+    opacity: 0;
+    visibility: hidden;
+    left: 0px;
+}
+
+.cc--descript .cle-link:hover i {
+    left: 7px;
+    opacity: 1;
+    visibility: visible;
+}
+.cc-my-5 {
+    margin-bottom: 3rem!important;
+    margin-top: 3rem!important;
+}
+.cc-text-primary {
+    color: rgb(104, 189, 69);
+}
+@media (max-width: 767px) {
+    .cc-my-5 {
+        margin-bottom: 0rem!important;
+        margin-top: 0rem!important;
+    }
+    .cc--order-2 {
+        order: 2;
+    }
+
+    .cc--descript {
+        margin-bottom: 2rem;
+    }
+}
