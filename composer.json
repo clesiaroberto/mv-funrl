@@ -1,0 +1,18 @@
+{
+    "name" : "Website Agencia funeraria",
+    "description": "initialize css with {cc-} after {name}, and files how css and js ini {cc} after {.} after {name.[js]or[css]}",
+    "authors": [
+        {
+            "name": "Clesia Chale",
+            "email": "clesiaroberto@yahoo.com"
+        }
+    ],
+    "version": "1.0.6",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "funeraria\\" : "app"
+        }
+    }
+}
